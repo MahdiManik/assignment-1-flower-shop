@@ -10,7 +10,7 @@
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
-    padding: 15px 30px;
+    padding: 15px 35px;
     gap: 10px;
     border: 0px;
     color: #FFF;
@@ -21,6 +21,10 @@
 
 .btn-primary:hover {
     background-color: red;
+}
+
+.text-primary {
+    color: #E55473;
 }
 
 /* header related styles */
@@ -144,32 +148,102 @@
 
 /* Instagram Section related styles */
 
-.instagram-section{
+.instagram-section {
     margin: 100px 200px;
-    background: #FFF; 
+    background: #FFF;
 }
-.instagram-content{
+
+.instagram-content {
     text-align: center;
     padding: 40px 20px;
 }
-.instagram-title{
+
+.instagram-title {
     color: #272727;
-font-size: 40px;
-font-weight: 800;
-padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
 }
-.instagram-description{
+
+.instagram-description {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
-.instagram-images{
+
+.instagram-images {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
 }
-.instagram-flower-images{
+
+.instagram-flower-images {
     width: 250px;
+}
+
+/* this is latest-deal-section */
+
+.latest-deal-section {
+
+    background: url("../flower/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 100px 90px;
+    text-align: center;
+}
+
+.latest-deal-container {
+    padding: 100px 150px;
+}
+
+.latest-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deal-shopping {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.latest-deal-input {
+    width: 50%;
+    padding: 15px 30px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    margin-left: 15px;
+}
+
+/* footer related */
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 100px 300px;
+}
+
+.footer-title {
+    color: #ffff;
+    font-size: 40px;
+    font-weight: 800;
+}
+.footer-description{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px;
+}
+.copyright{
+    color: rgba(95, 155, 138, 0.548);
 }
